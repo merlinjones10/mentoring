@@ -27,6 +27,17 @@ function whatToWear(weather) {
     }
 }
 
+const whatToWear2 = (weather) => {
+    if (weather === 'sunny') {
+        return 'sunglasses'
+    } else if (weather === 'rainy') {
+        return 'umbrella'
+    } else {
+        return 'shorts'
+    }
+};
+
+console.log(whatToWear2('sunny'));
 
 const num2 = add2(2,2)
 console.log(num2)
