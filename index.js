@@ -12,9 +12,21 @@ function add(a, b) {
     return a + b
 }
 
-const add2 = (a, b) => {
-return a + b;
+const add2 = (a, c) => {
+return a + c;
 }
+
+
+function whatToWear(weather) {
+    if (weather === 'sunny') {
+        return 'sunglasses'
+    } else if (weather === 'rainy') {
+        return 'umbrella'
+    } else {
+        return 'shorts'
+    }
+}
+
 
 const num2 = add2(2,2)
 console.log(num2)
